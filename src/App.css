@@ -1,0 +1,18 @@
+.star{
+  width:10px
+}
+@media only screen and (max-width: 730px) {
+  div .box {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  div .box {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  div .box {
+    width: 100%;
+  }
+}
