@@ -45,13 +45,17 @@ class App extends Component {
   render(){   
     const{people}=this.state;
     const{title}=this.state;
+    if(!isLoaded){
+      return <div>LOADING........</div>
+    }
+    else{
     return (
       <div className="tc">
         <img src="https://images.cooltext.com/5309767.png" alt="starwar"/>
         <CardList people={people} title={title}/>
         <p>&copy; yoursweetnightmare</p>        
       </div>
-    );
+    );}
 }}
 
 export default App;
