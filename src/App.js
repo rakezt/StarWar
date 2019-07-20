@@ -51,7 +51,9 @@ class App extends Component {
     else{
     return (
       <div className="tc">
+        <div>
         <img src="https://images.cooltext.com/5309767.png" alt="starwar"/>
+        </div>
         <CardList people={people} title={title}/>
         <p>&copy; yoursweetnightmare</p>        
       </div>
